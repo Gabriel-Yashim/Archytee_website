@@ -1126,7 +1126,7 @@ starts here ####### */
     }
 
     footer .f-main{
-        border-bottom: 0px solid tomato;
+        border-bottom: 0px solid #ff6600;
         padding-bottom: 3rem;
     }
 
@@ -1335,7 +1335,7 @@ starts here ####### */
 
     .message .sms form textarea{
         border: none;
-        border-bottom: 2px solid tomato;
+        border-bottom: 2px solid #ff6600;
         margin-bottom: 1rem;
         width: 99.8%;
         padding: .5rem;
@@ -1786,7 +1786,7 @@ starts here ####### */
     }
 
     footer .f-main{
-        border-bottom: 0px solid tomato;
+        border-bottom: 0px solid #ff6600;
         padding-bottom: 3rem;
     }
 
@@ -1995,7 +1995,7 @@ starts here ####### */
 
     .message .sms form textarea{
         border: none;
-        border-bottom: 2px solid tomato;
+        border-bottom: 2px solid #ff6600;
         margin-bottom: 1rem;
         width: 99.8%;
         padding: .5rem;

@@ -5,8 +5,8 @@
 /* variables  */
 :root {
     --background-color: #fff ;
-    --main-color: #2b3dc3ff;
-    --second-color: tomato;
+    --main-color: rgb(4, 11, 69);
+    --second-color: #ff6600;
     --border-radius: 20px;
     --text-color: rgba(39, 39, 39, 0.891);
     --odd-section: #edf4fbff;
@@ -501,7 +501,7 @@ marquee{
 
 .three .slider .col:hover{
     transform: scale(1);
-    border: 1px solid tomato;
+    border: 1px solid #ff6600;
     box-shadow: var(--shadow);
     transition: .7s ease-in-out;
     background-color: var(--background-color);
@@ -559,7 +559,7 @@ footer p{
 }
 
 footer .f-main{
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid #ff6600;
     padding-bottom: 1rem;
 }
 
@@ -680,7 +680,7 @@ footer .me{
 
 .projects .row button{
     padding: .5rem 1rem;
-    border: 1px solid tomato;
+    border: 1px solid #ff6600;
     background-color: var(--background-color);
 }
 
@@ -814,7 +814,7 @@ footer .me{
 .message .sms form input{
     display: block;
     border: none;
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid #ff6600;
     margin-bottom: 2rem;
     padding: 0.5rem 0.5rem 2rem 0.5rem;
 }
@@ -836,7 +836,7 @@ footer .me{
 
 .message .sms form textarea{
     border: none;
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid #ff6600;
     margin-bottom: 1rem;
     width: 99.8%;
     padding: .5rem;

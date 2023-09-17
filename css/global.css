@@ -13,7 +13,7 @@
 :root {
     --background-color: #fff ;
     --main-color: #2b3dc3ff;
-    --second-color: #fa0989;
+    --second-color: #ff6600;
     --border-radius: 20px;
     --text-color: rgb(214, 214, 214);
     --contrast-color: #000;
@@ -83,7 +83,7 @@ a{
 }
 
 a:hover{
-    color: tomato;
+    color: #ff6600;
 }
 
 img{
