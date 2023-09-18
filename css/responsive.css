@@ -856,6 +856,13 @@ starts here ####### */
     /* end of header styling  */
 
     /* Hero section starts here  */
+    .hidden{
+        opacity: 0;
+        filter: blur(3px);
+        transform: translateX(-100%);
+        transition: .5s ease-in-out;
+    }
+
     .hero .intro{
         top: 5rem;   
         height: 71.5vh;
@@ -1511,6 +1518,13 @@ starts here ####### */
     /* end of header styling  */
 
     /* Hero section starts here  */
+    .hidden{
+        opacity: 0;
+        filter: blur(3px);
+        transform: translateX(-100%);
+        transition: .5s ease-in-out;
+    }
+
     .hero .intro{
         top: 5rem;   
         height: 71.5vh;
