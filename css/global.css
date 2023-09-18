@@ -99,6 +99,7 @@ a:hover{
     color: #ff6600;
 }
 
+
 img{
     width: 100%;
 }
@@ -127,4 +128,48 @@ section{
 span{
     text-transform: capitalize;
     color: tomato;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100%);
+    transition: .3s ease-in-out;
+}
+
+.show{
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.col:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.col:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.col:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.col:nth-child(5){
+    transition-delay: 200ms;
+}
+
+.col:nth-child(6){
+    transition-delay: 400ms;
+}
+
+.col:nth-child(7){
+    transition-delay: 600ms;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+    
 }
