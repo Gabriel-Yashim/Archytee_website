@@ -166,6 +166,9 @@ header #toggle{
 /* end of header styling  */
 
 /* Hero section starts here  */
+.hero{
+    overflow-x: hidden;
+}
 .hero .intro{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.532);
