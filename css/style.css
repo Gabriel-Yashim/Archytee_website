@@ -761,10 +761,30 @@ footer .me{
     color: var(--second-color);
 }
 
+.about-bg .lower{
+    border-left: 3px solid #000;
+    padding-left: 1rem;
+    font-size: 3.5rem;
+    color: var(--second-color);
+}
+
 .about-bg .img img{
     height: 200px;
     width: 400px;
 }
+
+.about-bg .imgE img{
+    height: 400px;
+    width: 400px;
+}
+
+.about-bg .imgE img:hover{
+    border-top: #000 1px solid;
+    border-left: #000 1px solid;
+    transition: .3s ease-in-out;
+    transform: scale(1.05);
+}
+
 
 .about-bg .row{
     margin-top: 3rem;  
