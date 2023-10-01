@@ -345,7 +345,7 @@ marquee{
 /* section two styling begins here  */
 .two .grid{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, minmax(150px,200px));
+    grid-template-rows: repeat(5, minmax(230px,250px));
     grid-column-gap: 9rem;
     grid-row-gap: 3rem;
     width: 90%;
@@ -372,7 +372,7 @@ marquee{
 }
 
 .two .intro p{
-    width: 80%;
+    width: 90%;
     margin: 0;
 }
 
@@ -416,7 +416,7 @@ marquee{
 }
 
 .two .grid .c{
-    height: 70%;
+    height: 80%;
     grid-row: 3/6;
     /* padding-left: 5rem; */
 }
@@ -429,7 +429,7 @@ marquee{
 
 .two .grid .c small{
     right: 13%;
-    bottom: -30%;
+    bottom: -23%;
     color: var(--contrast-color);
     font-size: 3rem;
     z-index: 5;
@@ -544,7 +544,7 @@ marquee{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #fff 100%);
   cursor: pointer;
   z-index: 8;
-  bottom: -205rem;
+  bottom: -450%;
 }
 
 .prev-btn:hover{
