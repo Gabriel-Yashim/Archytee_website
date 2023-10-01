@@ -292,7 +292,7 @@ header #toggle{
 }
 
 .one .jobs p{
-    width: 70%;
+    width: 85%;
 }
 
 .one .jobs small{
@@ -544,7 +544,7 @@ marquee{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #fff 100%);
   cursor: pointer;
   z-index: 8;
-  bottom: -195rem;
+  bottom: -205rem;
 }
 
 .prev-btn:hover{
