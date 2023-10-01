@@ -404,7 +404,7 @@ marquee{
 .two .grid .b{
    grid-row: 2/4;
    /* padding-left: 3rem; */
-   margin-bottom: 2rem;
+   margin-bottom: 4rem;
 }
 
 .two .grid .b small{
