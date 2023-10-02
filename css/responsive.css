@@ -363,7 +363,7 @@ starts here ####### */
         width: 80%;
     }
     /* marquee tag  */
-    marquee{
+    .marquee{
         font-size: 4rem;
     }
 
@@ -937,7 +937,7 @@ starts here ####### */
         width: 90%;
     }
     /* marquee tag  */
-    marquee{
+    .marquee{
         font-size: 3rem;
     }
 
@@ -1596,7 +1596,7 @@ starts here ####### */
         width: 100%;
     }
     /* marquee tag  */
-    marquee{
+    .marquee{
         font-size: 3rem;
     }
 

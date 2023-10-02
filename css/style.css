@@ -330,12 +330,46 @@ header #toggle{
 }
 
 /* marquee tag  */
-marquee{
-    font-size: 5rem;
+.marquee{
+    font-size: 4.3rem;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Monoton', cursive;
 }
+
+.marquee {
+    -moz-animation: marquee 10s linear infinite;
+    -webkit-animation: marquee 10s linear infinite;
+    animation: marquee 10s linear infinite;
+  }
+  @-moz-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%)
+    }
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
 
 .mark{
     font-size: 7rem;
@@ -520,6 +554,7 @@ marquee{
     scroll-snap-align: start;
     object-fit: cover;
     padding: 1rem;
+    height: 320px;
     background-color: var(--odd-section);
     transform: scale(0.9);
 }    
@@ -589,12 +624,12 @@ footer .f-main{
 }
 
 footer .f-main img{
-    width: 35%;
+    width: 45%;
     background-color: var(--background-color);
 }
 
 footer .footnote{
-    width: 55%;
+    width: 70%;
 }
 
 /* footer .f-links,.fb{
@@ -634,10 +669,16 @@ footer .linkup a:hover{
     transition: .3s ease-in-out;
 }
 
+footer .f-bottom{
+    display: inline;
+}
+
 footer .me{
     color: var(--background-color);
     font-weight: 600;
     float: right;
+    display: inline;
+    margin-top: 0;
 }
 /* styling for footer section ends here  */
 /* <------------------------> */
