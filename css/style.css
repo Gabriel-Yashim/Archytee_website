@@ -48,7 +48,7 @@ header nav ul{
 }
 
 header nav ul li{
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 header nav ul li a{
@@ -337,11 +337,25 @@ marquee{
     font-family: 'Monoton', cursive;
 }
 
-
-
 .mark{
     font-size: 7rem;
 }
+
+/* styling for the "got to the top" button  */
+.up{
+    font-size: 2.5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80%;
+    /* bottom: 10%; */
+    background-color: var(--background-color);
+    width: 4%;
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    z-index: 10;
+}
+
+
 /* section styling stops here  */
 
 /* section two styling begins here  */

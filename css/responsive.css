@@ -8,7 +8,14 @@ starts here ####### */
         padding: 25rem 0 0 9rem;
     }
 
-    
+    /* styling for the "got to the top" button  */
+    .up{
+        font-size: 2rem;
+        width: 4%;
+        border-radius: 20px;
+        margin-left: .5rem;
+    }
+
     /* section two styling begins here  */
     .two .grid{
         grid-column-gap: 6rem;
@@ -47,6 +54,18 @@ starts here ####### */
     /* section three styling starts here  */
     .three .client{
         margin-top: 3rem;
+    }
+
+    .three .slider .col{
+        scroll-snap-type: x mandatory;
+        width: 50%;
+        flex: 0 0 32.5%;
+        scroll-snap-align: start;
+        object-fit: cover;
+        padding: 1rem;
+        height: 320px;
+        background-color: var(--odd-section);
+        transform: scale(0.9);
     }
 
     .prev-btn,
@@ -387,6 +406,14 @@ starts here ####### */
         font-size: 6rem;
     }
     /* section styling stops here  */
+
+    .up{
+        font-size: 2rem;
+        width: 5%;
+        border-radius: 20px;
+        margin-left: .5rem;
+    }
+
 
     /* section two styling begins here  */
     .two{
@@ -966,6 +993,13 @@ starts here ####### */
     }
     /* section styling stops here  */
 
+    .up{
+        font-size: 2rem;
+        width: 9%;
+        border-radius: 20px;
+        margin-left: .5rem;
+    }
+
     /* section two styling begins here  */
     .two .grid{
         grid-template-columns:  repeat(1,1fr);
@@ -1185,8 +1219,15 @@ starts here ####### */
         width: 50%;
     }
 
+    footer .f-bottom{
+        display: block;
+    }
+
     footer .me{
-        float:none;
+        color: var(--background-color);
+        font-weight: 600;
+        float: none;
+        display: inline-block;
     }
 
     /* styling for footer section ends here  */
@@ -1628,6 +1669,13 @@ starts here ####### */
     }
     /* section styling stops here  */
 
+    .up{
+        font-size: 2rem;
+        width: 10%;
+        border-radius: 20px;
+        margin-left: .5rem;
+    }
+
     /* section two styling begins here  */
     .two{
         padding-top: 1rem;
@@ -1854,8 +1902,15 @@ starts here ####### */
         width: 50%;
     }
 
+    footer .f-bottom{
+        display: block;
+    }
+
     footer .me{
-        float:none;
+        color: var(--background-color);
+        font-weight: 600;
+        float: none;
+        display: inline-block;
     }
 
     /* styling for footer section ends here  */
