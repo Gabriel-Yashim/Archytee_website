@@ -725,6 +725,11 @@ footer .me{
     height: 75vh;
 }
 
+.projects .row video{
+    width: 100%;
+    height: 75vh;
+}
+
 .projects .row img:hover{
     transform:scale(1.1);
     cursor: pointer;
