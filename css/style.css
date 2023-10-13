@@ -181,7 +181,7 @@ header #toggle{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.532);
     bottom: 15rem;
-    height: 100vh;
+    height: 91vh;
     width: 100%;
     top: 7.8rem;   
     left: 0rem; 
@@ -238,14 +238,14 @@ header #toggle{
 
 .slide-images{
     width: 400%;
-    height: 100vh;
+    height: 91vh;
     display: flex;
     margin: 0 0 0 -400%;
     position: relative;
     -webkit-animation-name: slide_animation;
     animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    animation-duration: 44s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 40s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
@@ -257,7 +257,7 @@ header #toggle{
 }
 
 .img-container{
-    height: 90vh;
+    height: 91vh;
     width: 100%;
     position: relative;
     float: left;
@@ -272,7 +272,7 @@ header #toggle{
 }
 
 .img-container .bg{
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* end of the header design */
@@ -753,9 +753,157 @@ footer .me{
     transition: .3s ease-in-out;
 }
 /* <------------------------> */
-/* 3D-DESIGN PROJECTS PAGE STYLING STOPS HERE */
+/* PROJECTS PAGE STYLING STOPS HERE */
 /* <------------------------> */
 
+/* <------------------------> */
+/* PROPERTIES PAGE STYLING STARTS HERE */
+/* <------------------------> */
+.hero .pr-intro{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.732);
+    bottom: 15rem;
+    height: 91vh;
+    width: 90%;
+    top: 15.5%;   
+    left: 5%; 
+    padding: 12rem 0 0 0rem;
+}
+
+.hero .pr-intro span{
+    font-weight: 600;
+}
+
+.hero .pr-intro h1{
+    color: var(--background-color);
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 6rem;
+    width: 80%;
+    margin: auto;
+}
+
+.hero .pr-intro h2{
+    color: rgba(255, 255, 255, 0.832);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.props .grid{
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+
+.props .grid div{
+    height: 400px;
+    width: 500px;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.props .grid div::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    transform-origin: left;
+    transform: scale(0);
+    transition: .5s ease all;
+}
+
+.props .grid div:hover::after{
+    opacity: .7;
+    transform: scale(100);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.props .grid div h3{
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+    z-index: 5;
+    transition: .3s ease;
+}
+
+.props .grid div:hover h3{
+    bottom: 10rem;
+    color: #fff;
+}
+
+.props .grid p{
+    position: absolute;
+    bottom: .5rem;
+    text-align: justify;
+    color: #000;
+    left: -200rem;
+    z-index: 5;
+    padding: 1rem;
+    /* transform: translateX(-120); */
+    transition: .5s ease;
+}
+
+.props .grid :hover p{
+    color: var(--background-color);
+    bottom: .5rem;
+    left: 0;
+    transition: .5s ease-in-out;
+    transform: translateX(1);
+}
+
+.props .grid .g-one{
+    background: url(/img/properties/Hero5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.props .grid .g-two{
+    background: url(/img/properties/Hero1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.props .grid .g-three{
+    background: url(/img/properties/Hero7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.props .grid .g-four{
+    background: url(/img/properties/Hero8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.props .grid .g-five{
+    background: url(/img/properties/Hero9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.props .grid .g-six{
+    background: url(/img/properties/Hero10.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* <------------------------> */
+/* PROPERTIES PAGE STYLING STOPS HERE */
+/* <------------------------> */
 
 /* <------------------------> */
 /* ABOUT PAGE STYLING STARTS HERE */
