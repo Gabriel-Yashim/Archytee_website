@@ -184,7 +184,7 @@ header #toggle{
     height: 91vh;
     width: 100%;
     top: 7.8rem;   
-    left: 0rem; 
+    left: 0; 
     padding: 12rem 0 0 9rem;
 }
 
@@ -268,7 +268,7 @@ header #toggle{
     height: 91vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* end of the header design */
