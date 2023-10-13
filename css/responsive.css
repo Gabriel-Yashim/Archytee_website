@@ -159,68 +159,18 @@ starts here ####### */
     }
 
     .props .grid div{
-        height: 400px;
-        width: 500px;
-        margin-bottom: 2rem;
-        position: relative;
-        overflow: hidden;
-        padding: 1rem;
-        box-shadow: var(--shadow);
-    }
-
-    .props .grid div::after{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        padding: 1rem;
-        opacity: 0;
-        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-        transform-origin: left;
-        transform: scale(0);
-        transition: .5s ease all;
-    }
-
-    .props .grid div:hover::after{
-        opacity: .7;
-        transform: scale(100);
-        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        height: 370px;
+        width: 450px;
     }
 
     .props .grid div h3{
-        position: absolute;
-        bottom: 3rem;
-        left: 1rem;
-        transition: .3s ease;
+        bottom: 1.5rem;
     }
 
     .props .grid div:hover h3{
-        bottom: 10rem;
-        color: #fff;
+        bottom: 12rem;
     }
 
-    .props .grid p{
-        position: absolute;
-        bottom: .5rem;
-        text-align: justify;
-        color: #000;
-        left: -200rem;
-        padding: 1rem;
-        /* transform: translateX(-120); */
-        transition: .5s ease;
-    }
-
-    .props .grid :hover p{
-        color: var(--background-color);
-        bottom: .5rem;
-        left: 0;
-        transition: .5s ease-in-out;
-        transform: translateX(1);
-    }
     /* <------------------------> */
     /* PROPERTIES PAGE STYLING STOPS HERE */
     /* <------------------------> */
@@ -731,6 +681,47 @@ starts here ####### */
     /* 3D-DESIGN PROJECTS PAGE STYLING STOPS HERE */
     /* <------------------------> */
 
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+    .proper{
+        height: 61vh;
+        overflow: hidden;
+    }
+    .hero .pr-intro{
+        height: 61vh;
+        top: 9%;
+    }
+
+    .hero .pr-intro span{
+        font-weight: 600;
+    }
+
+    .hero .pr-intro h1{
+        font-size: 5rem;
+    }
+
+    .hero .pr-intro h2{
+        font-size: 1.5rem;
+    }
+
+    .props .grid{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+
+    .props .grid div{
+        height: 400px;
+        width: 500px;
+    }
+
+    .props .grid div h3{
+        bottom: 1rem;
+    }
+
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STOPS HERE */
+    /* <------------------------> */
 
     /* <------------------------> */
     /* ABOUT PAGE STYLING STARTS HERE */
@@ -1012,7 +1003,7 @@ starts here ####### */
 
     .hero .intro{
         top: 5rem;   
-        height: 71.5vh;
+        height: 54.5vh;
         padding: 20rem 0 0 2rem;
     }
 
@@ -1037,7 +1028,7 @@ starts here ####### */
     }
 
     .img-container>img{
-        height: 68.8vh;
+        height: 51.8vh;
         width: 100%;
     }
 
@@ -1379,6 +1370,52 @@ starts here ####### */
     /* 3D-DESIGN PROJECTS PAGE STYLING STOPS HERE */
     /* <------------------------> */
 
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+    .proper{
+        height: 51vh;
+        overflow: hidden;
+    }
+
+    .hero .pr-intro{
+        height: 51vh;
+        top: 9%;   
+        left: 5%; 
+    }
+
+    .hero .pr-intro h1{
+        font-size: 3rem;
+    }
+
+    .hero .pr-intro h2{
+        font-size: 1.1rem;
+        width: 70%;
+    }
+
+    .props .grid{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+
+    .props .grid div{
+        height: 300px;
+        width: 350px;
+    }
+
+    .props .grid div h3{
+        bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .props .grid p{
+        font-size: 1rem;
+        /* transform: translateX(-120); */
+        transition: .5s ease;
+    }
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STOPS HERE */
+    /* <------------------------> */
 
     /* <------------------------> */
     /* ABOUT PAGE STYLING STARTS HERE */
@@ -1688,7 +1725,7 @@ starts here ####### */
 
     .hero .intro{
         top: 5rem;   
-        height: 71.5vh;
+        height: 61vh;
         padding: 20rem 0 0 2rem;
     }
 
@@ -1713,7 +1750,7 @@ starts here ####### */
     }
 
     .img-container>img{
-        height: 68.8vh;
+        height: 58.8vh;
         width: 100%;
     }
 
@@ -2062,6 +2099,54 @@ starts here ####### */
     /* 3D-DESIGN PROJECTS PAGE STYLING STOPS HERE */
     /* <------------------------> */
 
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+    .proper{
+        height: 51vh;
+        overflow: hidden;
+    }
+
+    .hero .pr-intro{
+        height: 51vh;
+        top: 9%;   
+        bottom: 17rem;
+        left: 5%; 
+    }
+
+    .hero .pr-intro h1{
+        font-size: 3rem;
+    }
+
+    .hero .pr-intro h2{
+        font-size: 1.1rem;
+        width: 70%;
+    }
+
+    .props .grid{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+
+    .props .grid div{
+        height: 300px;
+        width: 320px;
+    }
+
+    .props .grid div h3{
+        bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .props .grid p{
+        font-size: 1rem;
+        /* transform: translateX(-120); */
+        transition: .5s ease;
+    }
+
+    /* <------------------------> */
+    /* PROPERTIES PAGE STYLING STOPS HERE */
+    /* <------------------------> */
 
     /* <------------------------> */
     /* ABOUT PAGE STYLING STARTS HERE */
