@@ -271,10 +271,6 @@ header #toggle{
     background-size: cover;
 }
 
-.img-container .bg{
-    /* width: 100%; */
-}
-
 /* end of the header design */
 
 /* starting section one styling  */
@@ -831,6 +827,29 @@ footer .me{
     opacity: .7;
     transform: scale(100);
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.props .grid main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.props .grid div a{
+    /* position: absolute; */
+    top: 2rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #ff6600;
+    border-radius: 1rem;
+    font-weight: bold;
+    left: 1rem;
+    color: var(--second-color);
+    z-index: 5;
+    transition: .3s ease;
+}
+
+.props .grid div a:hover{
+    background-color: var(--second-color);
+    color: var(--background-color);
 }
 
 .props .grid div h3{
