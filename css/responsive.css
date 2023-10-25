@@ -705,6 +705,13 @@ starts here ####### */
         font-size: 1.5rem;
     }
 
+    .props h2{
+        font-size: 200%;
+        margin-top: 10%;
+        color: var(--second-color);
+        padding-left: 9%;
+    }
+
     .props .grid{
         grid-template-columns: repeat(1,1fr);
         place-items: center;
@@ -1391,6 +1398,13 @@ starts here ####### */
     .hero .pr-intro h2{
         font-size: 1.1rem;
         width: 70%;
+    }
+
+    .props h2{
+        font-size: 180%;
+        margin-top: 10%;
+        color: var(--second-color);
+        padding-left: 2%;
     }
 
     .props .grid{
@@ -2121,6 +2135,13 @@ starts here ####### */
     .hero .pr-intro h2{
         font-size: 1.1rem;
         width: 70%;
+    }
+    
+    .props h2{
+        font-size: 180%;
+        margin-top: 10%;
+        color: var(--second-color);
+        padding-left: 4%;
     }
 
     .props .grid{

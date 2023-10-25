@@ -760,9 +760,9 @@ footer .me{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.732);
     bottom: 15rem;
-    height: 91vh;
+    height: 92vh;
     width: 90%;
-    top: 15.5%;   
+    top: 15%;   
     left: 5%; 
     padding: 12rem 0 0 0rem;
 }
@@ -790,6 +790,10 @@ footer .me{
     margin: 2rem auto;
     text-align: center;
     font-style: italic;
+}
+
+.props{
+    padding-top: 0;
 }
 
 .props .grid{
@@ -833,6 +837,13 @@ footer .me{
 .props .grid main{
     display: flex;
     justify-content: space-between;
+}
+
+.props h2{
+    font-size: 210%;
+    margin-top: 4%;
+    color: var(--second-color);
+    padding-left: .5%;
 }
 
 .props .grid div a{
