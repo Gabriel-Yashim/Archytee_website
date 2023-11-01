@@ -807,7 +807,8 @@ footer .me{
     margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
-    padding: 1rem;
+    padding: 0rem;
+    /* padding: .1rem .5rem; */
     box-shadow: var(--shadow);
 }
 
@@ -834,8 +835,16 @@ footer .me{
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
 }
 
+.props .grid .links{
+    position: absolute;
+    top: 0rem;
+    padding: 2rem;
+    left: -200rem;
+}
+
 .props .grid main{
     display: flex;
+    /* position: relative; */
     justify-content: space-between;
 }
 
@@ -889,7 +898,7 @@ footer .me{
     transition: .5s ease;
 }
 
-.props .grid :hover p{
+.props .grid :hover p,.links{
     color: var(--background-color);
     bottom: .5rem;
     left: 0;
@@ -897,44 +906,71 @@ footer .me{
     transform: translateX(1);
 }
 
-.props .grid .g-one{
-    background: url(/img/properties/Hero5.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.props .grid :hover .links{
+    color: var(--background-color);
+    bottom: .5rem;
+    left: 0;
+    transition: .5s ease-in-out;
+    transform: translateX(1);
 }
 
-.props .grid .g-two{
-    background: url(/img/properties/Hero1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.props .grid .g-three{
-    background: url(/img/properties/Hero7.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.props .grid .g-four{
-    background: url(/img/properties/Hero8.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.props .grid .g-five{
-    background: url(/img/properties/Hero9.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.props .grid .g-six{
-    background: url(/img/properties/Hero10.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 /* <------------------------> */
 /* PROPERTIES PAGE STYLING STOPS HERE */
 /* <------------------------> */
+
+
+/* <------------------------> */
+/* PROPERTIES_DETAILS PAGE STYLING STARTS HERE */
+/* <------------------------> */
+.details{
+    width: 80%;
+    margin: auto;
+}
+
+.props_det .main_img{
+    margin-top: 1rem;
+}
+
+.props_det h2{
+    padding-left: 2%;
+}
+
+.props_det p{
+    text-align: justify;
+    margin-top: 1.5rem;
+}
+.props_det .slider .col img{
+    width: 100%;
+}
+
+.props_det .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.props_det .slider .col{
+    object-fit: cover;
+    background-color: var(--odd-section);
+    transform: scale(0.9);
+}    
+
+.props_det .slider .col:hover{
+    transform: scale(1);
+    border: 1px solid #ff6600;
+    box-shadow: var(--shadow);
+    transition: .7s ease-in-out;
+    background-color: var(--background-color);
+}
+
+.props_det b{
+    font-size: 130%;
+}
+
+/* <------------------------> */
+/* PROPERTIES_DETAILS PAGE STYLING STOPS HERE */
+/* <------------------------> */
+
 
 /* <------------------------> */
 /* ABOUT PAGE STYLING STARTS HERE */

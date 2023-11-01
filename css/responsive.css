@@ -176,6 +176,17 @@ starts here ####### */
     /* <------------------------> */
 
     /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+
+    .props_det .slider .col:hover{
+        transform: scale(0.95);
+    }
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STOPS HERE */
+    /* <------------------------> */
+
+    /* <------------------------> */
     /* ABOUT PAGE STYLING STARTS HERE */
     /* <------------------------> */
     .about-hero .layer{
@@ -728,6 +739,22 @@ starts here ####### */
 
     /* <------------------------> */
     /* PROPERTIES PAGE STYLING STOPS HERE */
+    /* <------------------------> */
+
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+
+    .props_det .row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .props_det .slider .col:hover{
+        transform: scale(0.95);
+    }
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STOPS HERE */
     /* <------------------------> */
 
     /* <------------------------> */
@@ -1429,6 +1456,23 @@ starts here ####### */
     }
     /* <------------------------> */
     /* PROPERTIES PAGE STYLING STOPS HERE */
+    /* <------------------------> */
+
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+    
+    .props_det .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+    .props_det .slider .col:hover{
+        transform: scale(0.95);
+    }
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STOPS HERE */
     /* <------------------------> */
 
     /* <------------------------> */
@@ -2168,6 +2212,23 @@ starts here ####### */
     /* <------------------------> */
     /* PROPERTIES PAGE STYLING STOPS HERE */
     /* <------------------------> */
+
+
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STARTS HERE */
+    /* <------------------------> */
+    .props_det .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .props_det .slider .col:hover{
+        transform: scale(0.95);
+    }
+    /* <------------------------> */
+    /* PROPERTIES_DETAILS PAGE STYLING STOPS HERE */
+    /* <------------------------> */
+
 
     /* <------------------------> */
     /* ABOUT PAGE STYLING STARTS HERE */
