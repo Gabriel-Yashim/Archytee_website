@@ -10,4 +10,4 @@ But after creating the website, the project requirement changed, and they wanted
 <li>I was able to make use of less code and reduce a lot of duplicate codes through the help of templates</li>
 </ul>
 
-I created a new reppository for the website i created with Django <a href="">here</a>
+I created a new reppository for the website i created with Django <a href="https://github.com/Gabriel-Yashim/Archytee_website-with-Django-/">here</a>
